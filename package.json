@@ -1,0 +1,17 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build-css": "node-sass ./src/styles/styles.scss ./src/styles/styles.css",
+    "watch-css": "nodemon -e scss -x 'npm run build-css'",
+    "prod": "npm run build-css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+  
+}
